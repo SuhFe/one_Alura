@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+        document.write("<br>");
+}
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+}
+
+    for(var multiplicador = 1; multiplicador <= 10; multiplicador++) { //++ se fala pós incremento
+    mostra(5 * multiplicador);
+    //espaço 1: variavel iniciante
+    //espaço 2: condição de repetição
+    //espaço 3: incremento da variavel (ex:++)
+}
+
+    //var multiplicador = 1; (variavel iniciante e fica antes de iniciar o while)
+    //while(multiplicador <= 10) { (condição de repetição)
+        //mostra(5 * multiplicador);
+        //multiplicador = multiplicador + 1; (incremento da variavel)}
+
+mostra("FIM");
+
+</script>
